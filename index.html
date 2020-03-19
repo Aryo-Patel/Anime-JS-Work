@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Anime JS Demo Space</title>
+        <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap" rel="stylesheet">
+        <link rel = "stylesheet" type = "text/css" href = "./CSS/pageNav.css">
+        <link rel = "stylesheet" type = "text/css" href = "./CSS/target.css">
+        <link rel = "stylesheet" type = "text/css" href = "./CSS/properties.css">
+        <link rel = "stylesheet" type ="text/css" href = "./CSS/propertyParameters.css">
+        <link rel = "stylesheet" type = "text/css" href=  "CSS/myAnimations.css">
+    </head>
+    <body>
+        
+        <div id= "whole-wrapper">
+        <!--  ~~~~~~~Finish the main section first and then add in the href section
+            <div id  = "href-wrapper">
+                <a href = "#targets" class = "section-finder">TARGETS</a>
+                <ul id = "targets-list">
+                    <li>
+                        <a href = "#css-selector" class ="item-finder">CSS SELECTOR</a>
+                    </li>
+                </ul>
+                
+            </div>
+        -->
+            <div id = "animation-wrapper" class = "wrapper">
+                <div id = "targets-wrapper">
+                    <div class = "container" id = "targets">
+                        <h3 class = "header-text" >TARGETS</h3>
+                    </div>
+                    <div class = "container" id = "css-selector">
+                        <h3 class = "header-text">CSS SELECTOR</h3>
+
+                        <div class = "square-target" id = "css-selector-square"></div>
+                    </div>
+                    <div class = "container" id = "dom-node">
+                        <h3 class = "header-text">DOM NODE / NODE LIST</h3>
+                        <div id = 'dom-squares-spacer'></div>
+                        <div class = "square-target dom-squares"></div>
+                        <div class = "square-target dom-squares"></div>
+                        <div class = "square-target dom-squares"></div>
+                    </div>
+                    <div class = "container" id = "javascript-object">
+                        <h3 class = "header-text">JAVASCRIPT OJBECT</h3>
+
+                        <div id = "javascript-object-text"></div>
+                    </div>
+                </div>
+                <div id = "properties-wrapper">
+                    <div class = "container" id = "properties">
+                        <h3 class = "header-text" >PROPERTIES</h3>
+                    </div>
+                    <div class = "container" id = "css-properties">
+                        <h3 class = "header-text">CSS PROPERTIES</h3>
+
+                        <div class = "square-properties" id = "css-properties-square"></div>
+                    </div>
+                    <div class = "container" id = "css-transforms">
+                        <h3 class = "header-text">CSS TRANSFORMS</h3>
+
+                        <div class = "square-properties" id = "css-transform-square"></div>
+                    </div>
+                    <div class = "container" id = "dom-attributes">
+                        <h3 class = "header-text">DOM ATTRIBUTES</h3>
+                        <div id = 'dom-squares-spacer'></div>
+                        <div id = "css-transform-dom-attributes">
+                            <input id = "text-output" value = 0>
+                        </div>
+                    </div>
+                    <div class = "container" id = "svg-attributes">
+                        <h3 class = "header-text">SVG ATTRIBUTES (COME BACK TO THIS)</h3>
+
+                        <div id = "svg-attributes-container">
+                            <svg width = "128px" height = "128px" viewBox = "0 0 128 128">
+                                <filter id = "turbulence">
+                                    <feTurbulence type ="turbulence" baseFrequency = 0 numOctaves = 2 result = "turbulence" style = "transform: scale(1)"></feTurbulence>
+                                </filter>
+                                <polygon points = "64 68.64 8.574 100 63.446 67.68 64 4 64.554 67.68 119.426 100"></polygon>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div id = "property-parameters-wrapper">
+                    <div class = "container" id = "property-parameter">
+                        <h3 class = "header-text" >PROPERTY PARAMETERS</h3>
+                    </div>
+                    <div class = "container" id = "specific-property-parameter">
+                        <h3 class = "header-text">SPECIFIC PROPERTY PARAMETERS</h3>
+
+                        <div class = "square-property-parameter" id = "specific-property-parameter-square"></div>
+                    </div>
+                </div>
+                <div id = "my-animations-wrapper">
+                    <div class = "container" id = "my-animations">
+                        <h3 class = "header-text" >MY ANIMATIONS</h3>
+                    </div>
+                    <div class = "container" id = "line-across-screen">
+                        <h3 class = "header-text">LINE ACROSS SCREEN</h3>
+
+                        <div class = "my-animations-line" id = "my-animations-line-no-text"></div>
+                    </div>
+                    <div class = "container" id = "secret-message">
+                        <h3 class = "header-text">SECRET MESSAGE</h3>
+
+                        <span id = "text-wrapper">
+                            <span id = "intro-line"></span>
+                            <span id = "intro-letters">Alex Nerd</span>
+                        </span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src = https://cdnjs.cloudflare.com/ajax/libs/animejs/3.1.0/anime.min.js></script>
+    <script src = "./Js/pageNav.js"></script>
+    <script src = "./Js/target.js"></script>
+    <script src = "./Js/properties.js"></script>
+    <script src = "./Js/propertyParameters.js"></script>
+    <script src = "./Js/myAnimations.js"></script>
+    </body>
+</html>

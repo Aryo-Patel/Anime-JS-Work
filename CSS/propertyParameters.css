@@ -1,0 +1,27 @@
+*{
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+.property-parameters-wrapper-container-clicked{
+    color: #FFC730;
+    background-color: #2F2B23
+}
+.square-property-parameter{
+    margin-top: 5%;
+    margin-left: 25%;
+    width: 30px;
+    height: 30px;
+    background-color: #FFC730;
+}
+
+#css-transform-dom-attributes{
+    margin: 0 auto;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #FF8F42;
+    color: #FF8F42
+}
+#property-parameter{
+    height: 60px !important;
+}

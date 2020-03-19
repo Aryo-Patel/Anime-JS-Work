@@ -1,0 +1,36 @@
+*{
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+#targets{
+    height: 60px !important;
+}
+.targets-wrapper-container-clicked{
+    color: #FF4B4B;
+    background-color: #2F2625;
+}
+.square-target{
+    margin-top: 5%;
+    margin-left: 25%;
+    width: 30px;
+    height: 30px;
+    background-color: #FF4B4B;
+}
+
+.dom-squares{
+    margin-top: 0;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+#javascript-object-text{
+    margin-top: 5%;
+    font-size: 1.2em;
+    text-align: center;
+    color: #FF4B4B !important;
+}
+
+#dom-squares-spacer{
+    margin-top: 3%;
+}

@@ -1,0 +1,60 @@
+*{
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+.my-animations-wrapper-container-clicked{
+    color: #00D672;
+    background-color: #232C26
+}
+.square-my-animations{
+    margin-top: 5%;
+    margin-left: 25%;
+    width: 30px;
+    height: 30px;
+    background-color: #FFC730;
+}
+
+#css-transform-dom-attributes{
+    margin: 0 auto;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #FF8F42;
+    color: #FF8F42
+}
+#my-animations{
+    height: 60px !important;
+}
+
+.my-animations-line{
+    margin-top: 1%;
+    margin-left: 25%;
+    width:2px;
+    height: 100px;
+    background-color: #00D672;
+    transform: scaleY(0);
+}
+#text-wrapper{
+    position: relative;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+#intro-line{
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 3px;
+    background-color: #00D672;
+    transform-origin: 0 50%;
+}
+#intro-letters{
+    text-align: center;
+    font-size: 1.6em;
+}
+
+#intro-letter{
+    opacity: 0;
+}
